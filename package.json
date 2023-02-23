@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "src/*.js"
+    "src/*.js",
+    "*.js"
   ],
   "repository": "https://github.com/darehn/tailwind-qol",
   "keywords": [],
