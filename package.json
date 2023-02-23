@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "src/*.js"
+  ],
   "repository": "https://github.com/darehn/tailwind-qol",
   "keywords": [],
   "license": "MIT",
