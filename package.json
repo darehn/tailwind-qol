@@ -1,0 +1,22 @@
+{
+  "name": "@darehn/tailwind-qol",
+  "version": "1.0.0",
+  "description": "Additional utility classes for tailwindcss",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/darehn/tailwind-qol",
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darehn/tailwind-qol/issues"
+  },
+  "homepage": "https://github.com/darehn/tailwind-qol#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0"
+  }
+}
