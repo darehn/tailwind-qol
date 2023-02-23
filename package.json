@@ -1,6 +1,6 @@
 {
   "name": "@darehn/tailwind-qol",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Additional utility classes for tailwindcss",
   "main": "src/index.js",
   "scripts": {
