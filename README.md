@@ -3,8 +3,142 @@ Additional utility classes for tailwindcss
 
 ## Installation
 
+To install everything in this package.
+
 ```js
 plugins: [
     ...Object.values(require('@darehn/tailwind-qol')),
 ]
 ```
+
+You can also include only the parts you need. The following example would only include the animations plugin.
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/animations'),
+]
+```
+
+## Plugins
+
+### Size
+
+The size plugin adds new classes to set the with and height of an element. 
+You can use the same units that you are used to.
+
+#### Installation
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/size'),
+]
+```
+
+#### Example
+
+Div with width and height set to 16 units (4rem)
+```html
+<div class="s-16"></div>
+```
+
+#### Available Classes
+
+`s-{n}`: Sets the width and height to the given size
+
+----
+
+### Animations
+
+The animations plugin adds new utility classes for animations.
+You can use this to alter the animation-duration and timing-function.
+
+#### Installation
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/animations'),
+]
+```
+
+#### Example
+
+Here we change the duration of the animation to 1.5 seconds.
+We also set the timing-function to `steps(8)`.
+```html
+<svg class="animate-spin animation-duration-1500 animation-steps-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	...
+</svg>
+```
+
+#### Available Classes
+
+`animation-duration-{n}`: Sets the duration of the animation in ms.
+
+`animation-linear`: Sets the timing-function to linear
+
+`animation-ease`: Sets the timing-function to ease
+
+`animation-ease-in`: Sets the timing-function to ease-in
+
+`animation-ease-out`: Sets the timing-function to ease-out
+
+`animation-steps-{n}`: Sets the timing-function to steps(n).
+
+----
+
+### Typography
+
+The typography plugin adds the possibility to clamp the number of lines visible.
+
+#### Installation
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/typography'),
+]
+```
+
+#### Example
+
+Limits the number of visible lines to 2.
+
+```html
+<div class="clamp-lines-2">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusantium autem commodi
+    delectus dolorem dolorum eos error illum iusto libero non optio pariatur perferendis, 
+    quam, repellat sit sunt totam ut velit.
+</div>
+```
+
+#### Available Classes
+
+`clamp-lines-{n}`: Clamp text to given number of lines
+
+----
+
+### Elevation
+
+The elevation plugin adds material design style elevation utility classes.
+You can still use the regular tailwind shadow classes to change the color of the shadow.
+
+#### Installation
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/elevation'),
+]
+```
+
+#### Example
+
+Div with an elevation level of 4.
+
+```html
+<div class="shadow-4">
+    ...
+</div>
+```
+
+#### Available Classes
+
+`shadow-{n}`: Sets the elevation level to the given value (between 0 and 24).
