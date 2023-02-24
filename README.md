@@ -32,14 +32,12 @@ plugins: [
 ]
 ```
 
-## Plugins
-
-### Size
+## Size Plugin
 
 The size plugin adds new classes to set the with and height of an element. 
 You can use the same units that you are used to.
 
-#### Installation
+### Usage
 
 ```js
 plugins: [
@@ -47,25 +45,25 @@ plugins: [
 ]
 ```
 
-#### Example
+### Example
 
 Div with width and height set to 16 units (4rem)
 ```html
 <div class="s-16"></div>
 ```
 
-#### Available Classes
+### Available Classes
 
 `s-{n}`: Sets the width and height to the given size
 
 ----
 
-### Animations
+## Animation Plugin
 
 The animations plugin adds new utility classes for animations.
 You can use this to alter the animation-duration and timing-function.
 
-#### Installation
+### Usage
 
 ```js
 plugins: [
@@ -73,7 +71,7 @@ plugins: [
 ]
 ```
 
-#### Example
+### Example
 
 Here we change the duration of the animation to 1.5 seconds.
 We also set the timing-function to `steps(8)`.
@@ -83,7 +81,7 @@ We also set the timing-function to `steps(8)`.
 </svg>
 ```
 
-#### Available Classes
+### Available Classes
 
 `animation-duration-{n}`: Sets the duration of the animation in ms.
 
@@ -99,11 +97,11 @@ We also set the timing-function to `steps(8)`.
 
 ----
 
-### Typography
+## Typography Plugin
 
 The typography plugin adds the possibility to clamp the number of lines visible.
 
-#### Installation
+### Usage
 
 ```js
 plugins: [
@@ -111,7 +109,7 @@ plugins: [
 ]
 ```
 
-#### Example
+### Example
 
 Limits the number of visible lines to 2.
 
@@ -123,18 +121,18 @@ Limits the number of visible lines to 2.
 </div>
 ```
 
-#### Available Classes
+### Available Classes
 
 `clamp-lines-{n}`: Clamp text to given number of lines
 
 ----
 
-### Elevation
+## Elevation Plugin
 
 The elevation plugin adds material design style elevation utility classes.
 You can still use the regular tailwind shadow classes to change the color of the shadow.
 
-#### Installation
+### Usage
 
 ```js
 plugins: [
@@ -142,7 +140,7 @@ plugins: [
 ]
 ```
 
-#### Example
+### Example
 
 Div with an elevation level of 4.
 
@@ -152,6 +150,6 @@ Div with an elevation level of 4.
 </div>
 ```
 
-#### Available Classes
+### Available Classes
 
 `shadow-{n}`: Sets the elevation level to the given value (between 0 and 24).
