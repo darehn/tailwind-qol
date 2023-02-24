@@ -4,14 +4,12 @@ Additional utility classes for tailwindcss
 
 ## Installation
 
-yarn
 ```shell
-yarn add @darehn/tailwind-qol
+yarn add -D @darehn/tailwind-qol
 ```
-
-npm
+or
 ```shell
-npm install --save @darehn/tailwind-qol
+npm install -D @darehn/tailwind-qol
 ```
 
 ## Usage
