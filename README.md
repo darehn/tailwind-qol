@@ -52,7 +52,7 @@ Div with width and height set to 16 units (4rem)
 
 ### Available Classes
 
-`s-{n}`: Sets the width and height to the given size
+* `s-{n}`: Sets the width and height to the given size
 
 ----
 
@@ -81,21 +81,14 @@ We also set the timing-function to `steps(8)`.
 
 ### Available Classes
 
-`animation-duration-{n}`: Sets the duration of the animation in ms.
-
-`animation-steps-{n}`: Sets the timing-function to steps(n).
-
-`animation-linear`
-
-`animation-ease`
-
-`animation-ease-in`
-
-`animation-ease-out`
-
-`animation-ease-in-out`
-
-`animation-bounce`
+* `animation-duration-{n}`: Sets the duration of the animation in ms.
+* `animation-steps-{n}`: Sets the timing-function to steps(n).
+* `animation-linear`
+* `animation-ease`
+* `animation-ease-in`
+* `animation-ease-out`
+* `animation-ease-in-out`
+* `animation-bounce`
 
 ### Configuration
 
@@ -150,7 +143,8 @@ Limits the number of visible lines to 2.
 
 ### Available Classes
 
-`clamp-lines-{n}`: Clamp text to given number of lines (1 to 6 by default)
+* `clamp-lines-{n}`: Clamp text to given number of lines (1 to 6 by default)
+* `clamp-lines-none`: Use this to remove clamping
 
 ### Configuration
 
@@ -181,7 +175,7 @@ You can still use the regular tailwind shadow classes to change the color of the
 
 ```js
 plugins: [
-    require('@darehn/tailwind-qol/elevation'),
+	require('@darehn/tailwind-qol/elevation'),
 ]
 ```
 
@@ -191,10 +185,47 @@ Div with an elevation level of 4.
 
 ```html
 <div class="shadow-4">
+	...
+</div>
+```
+
+### Available Classes
+
+* `shadow-{n}`: Sets the elevation level to the given value (between 0 and 24).
+
+----
+
+## Layout Plugin
+
+The layout plugin adds a few utilities to position elements.
+
+### Usage
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/layout'),
+]
+```
+
+### Example
+
+Div with transparent black background that will overlay its parent
+
+```html
+<div class="overlay bg-black/25">
+	...
+</div>
+```
+
+Div as a fixed overlay
+
+```html
+<div class="overlay-fixed bg-black/25">
     ...
 </div>
 ```
 
 ### Available Classes
 
-`shadow-{n}`: Sets the elevation level to the given value (between 0 and 24).
+* `overlay`: Sets absolute position and inset to 0.
+* `overlay-fixed`: Sets fixed position and inset to 0.
