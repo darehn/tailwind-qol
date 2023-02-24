@@ -134,10 +134,15 @@ Limits the number of visible lines to 2.
 
 ```html
 <div class="clamp-lines-2">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Accusantium autem commodi delectus dolorem dolorum eos error
-    illum iusto libero non optio pariatur perferendis, 
-    quam, repellat sit sunt totam ut velit.
+	...
+</div>
+```
+
+Remove clamping on hover
+
+```html
+<div class="clamp-lines-3 hover:clamp-lines-none">
+    ...
 </div>
 ```
 
@@ -185,6 +190,14 @@ Div with an elevation level of 4.
 
 ```html
 <div class="shadow-4">
+	...
+</div>
+```
+
+Div with an elevation level of 8 and red shadow.
+
+```html
+<div class="shadow-8 shadow-red-700/20">
 	...
 </div>
 ```
