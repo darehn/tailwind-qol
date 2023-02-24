@@ -16,6 +16,8 @@ module.exports = plugin(function animations({matchUtilities, addUtilities, theme
 		'.animation-ease': { 'animation-timing-function': 'ease' },
 		'.animation-ease-in': { 'animation-timing-function': 'ease-in' },
 		'.animation-ease-out': { 'animation-timing-function': 'ease-out' },
+		'.animation-ease-in-out': { 'animation-timing-function': 'cubic-bezier(0.42, 0, 0.58, 1)' },
+		'.animation-bounce': { 'animation-timing-function': 'cubic-bezier(0.175, 0.885, 0.35, 1.5)' },
 	});
 
 	matchUtilities({
