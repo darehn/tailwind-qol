@@ -100,16 +100,16 @@ the `animationDuration` and `animationStep` keys in your `tailwind.config.js` fi
 module.exports = {
     //...
     theme: {
-	    animationDuration: {
-		    250: '250ms',
-		    400: '400ms',
-		    1250: '1250ms',
-	    },
-	    animationStep: {
-		    3: '3',
-		    4: '4',
-		    5: '5',
-	    },
+        animationDuration: {
+            250: '250ms',
+            400: '400ms',
+            1250: '1250ms',
+        },
+        animationStep: {
+            3: '3',
+            4: '4',
+            5: '5',
+        },
     }
 }
 ```
