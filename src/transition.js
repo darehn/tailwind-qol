@@ -12,7 +12,7 @@ module.exports = plugin(function transition({addUtilities, matchUtilities}) {
 				'width': 'width',
 				'height': 'height',
 				'size': 'width, height',
-				'box': 'margin, padding, width, height',
+				'box': 'width, height, padding, border-width, margin',
 				'text': 'color, text-decoration-color, font-size, font-weight, line-height, letter-spacing',
 			}
 		}

@@ -216,7 +216,7 @@ The layout plugin adds a few utilities to position elements.
 
 ```js
 plugins: [
-    require('@darehn/tailwind-qol/layout'),
+	require('@darehn/tailwind-qol/layout'),
 ]
 ```
 
@@ -226,7 +226,7 @@ Div with transparent black background that will overlay its parent
 
 ```html
 <div class="overlay bg-black/25">
-    ...
+	...
 </div>
 ```
 
@@ -234,7 +234,7 @@ Div as a fixed overlay
 
 ```html
 <div class="overlay-fixed bg-black/25">
-    ...
+	...
 </div>
 ```
 
@@ -242,3 +242,44 @@ Div as a fixed overlay
 
 * `overlay`: Sets absolute position and inset to 0.
 * `overlay-fixed`: Sets fixed position and inset to 0.
+
+----
+
+## Transition Plugin
+
+The layout plugin adds a few utilities for transitions.
+
+### Usage
+
+```js
+plugins: [
+    require('@darehn/tailwind-qol/transition'),
+]
+```
+
+### Example
+
+Div which will transition width and height
+
+```html
+<div class="h-10 hover:h-20 transition-size">
+	...
+</div>
+```
+
+Div which will transition height with a bouncing easing function
+
+```html
+<div class="h-10 hover:h-20 transition-height ease-bounce">
+    ...
+</div>
+```
+
+### Available Classes
+
+* `transition-width`
+* `transition-height`
+* `transition-size`: width and height
+* `transition-box`: width, height, padding, border-width and margin
+* `transition-text`: color, text-decoration-color, font-size, font-weight, line-height and letter-spacing
+* `ease-bounce`
