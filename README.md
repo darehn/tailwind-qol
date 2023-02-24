@@ -75,7 +75,7 @@ Here we change the duration of the animation to 1.5 seconds.
 We also set the timing-function to `steps(8)`.
 ```html
 <svg class="animate-spin animation-duration-1500 animation-steps-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-	...
+    ...
 </svg>
 ```
 
@@ -134,7 +134,7 @@ Limits the number of visible lines to 2.
 
 ```html
 <div class="clamp-lines-2">
-	...
+    ...
 </div>
 ```
 
@@ -180,7 +180,7 @@ You can still use the regular tailwind shadow classes to change the color of the
 
 ```js
 plugins: [
-	require('@darehn/tailwind-qol/elevation'),
+    require('@darehn/tailwind-qol/elevation'),
 ]
 ```
 
@@ -190,7 +190,7 @@ Div with an elevation level of 4.
 
 ```html
 <div class="shadow-4">
-	...
+    ...
 </div>
 ```
 
@@ -198,7 +198,7 @@ Div with an elevation level of 8 and red shadow.
 
 ```html
 <div class="shadow-8 shadow-red-700/20">
-	...
+    ...
 </div>
 ```
 
@@ -226,7 +226,7 @@ Div with transparent black background that will overlay its parent
 
 ```html
 <div class="overlay bg-black/25">
-	...
+    ...
 </div>
 ```
 
