@@ -32,12 +32,12 @@ module.exports = plugin(function animations({matchUtilities, addUtilities, theme
 }, {
 	theme: {
 		animationStep: {
-			4: 4,
-			6: 6,
-			8: 8,
-			10: 10,
-			12: 12,
-			16: 16,
+			4: '4',
+			6: '6',
+			8: '8',
+			10: '10',
+			12: '12',
+			16: '16',
 		},
 		animationDuration: {
 			500: '500ms',
