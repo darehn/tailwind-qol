@@ -1,6 +1,6 @@
 {
   "name": "@darehn/tailwind-qol",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Additional utility classes for tailwindcss",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,9 @@
     "*.js"
   ],
   "repository": "https://github.com/darehn/tailwind-qol",
-  "keywords": [],
+  "keywords": [
+    "tailwindcss", "utilities"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/darehn/tailwind-qol/issues"
