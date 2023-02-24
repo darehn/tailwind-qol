@@ -14,7 +14,7 @@ npm install -D @darehn/tailwind-qol
 
 ## Usage
 
-To install everything in this package, update the plugins array in `tailwind.config.js`.
+To include everything in this package, update the plugins array in `tailwind.config.js`.
 
 ```js
 plugins: [
