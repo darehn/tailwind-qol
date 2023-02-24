@@ -1,9 +1,22 @@
 # tailwind-qol
+
 Additional utility classes for tailwindcss
 
 ## Installation
 
-To install everything in this package.
+yarn
+```shell
+yarn add @darehn/tailwind-qol
+```
+
+npm
+```shell
+npm install --save @darehn/tailwind-qol
+```
+
+## Usage
+
+To install everything in this package, update the plugins array in `tailwind.config.js`.
 
 ```js
 plugins: [
