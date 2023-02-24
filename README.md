@@ -85,15 +85,19 @@ We also set the timing-function to `steps(8)`.
 
 `animation-duration-{n}`: Sets the duration of the animation in ms.
 
-`animation-linear`: Sets the timing-function to linear
-
-`animation-ease`: Sets the timing-function to ease
-
-`animation-ease-in`: Sets the timing-function to ease-in
-
-`animation-ease-out`: Sets the timing-function to ease-out
-
 `animation-steps-{n}`: Sets the timing-function to steps(n).
+
+`animation-linear`
+
+`animation-ease`
+
+`animation-ease-in`
+
+`animation-ease-out`
+
+`animation-ease-in-out`
+
+`animation-bounce`
 
 ----
 
