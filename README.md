@@ -117,15 +117,16 @@ Limits the number of visible lines to 2.
 
 ```html
 <div class="clamp-lines-2">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusantium autem commodi
-    delectus dolorem dolorum eos error illum iusto libero non optio pariatur perferendis, 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Accusantium autem commodi delectus dolorem dolorum eos error
+    illum iusto libero non optio pariatur perferendis, 
     quam, repellat sit sunt totam ut velit.
 </div>
 ```
 
 ### Available Classes
 
-`clamp-lines-{n}`: Clamp text to given number of lines
+`clamp-lines-{n}`: Clamp text to given number of lines (1 to 6)
 
 ----
 
