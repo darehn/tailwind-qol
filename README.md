@@ -32,7 +32,7 @@ plugins: [
 
 ## Size Plugin
 
-The size plugin adds new classes to set the with and height of an element. 
+The size plugin adds new classes to set the width and height of an element. 
 You can use the same units that you are used to.
 
 ### Usage
